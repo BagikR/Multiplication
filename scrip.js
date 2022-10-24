@@ -62,7 +62,7 @@ numInput.addEventListener('keydown', (e)=>{
 //Завершення тестування. Блокуємо всі інпути та виводимо остаточний результат. Пропонуємо перезавантажити сторінку або зачекати 5 секунд до перезавнтаження
 closeBtn.onclick = function(){
     textResult.innerHTML = `Ваш остаточний результат: ${resPercent}% (${countTrue} правильних відповідей з ${clickCount})!!!<br>
-    <span style="color: green">Перезавантажте сторінку або зачекайте 5 секунд, сторінка перезавнтажиться самостійно.</span>`;
+    <span style="color: green">Перезавантажте сторінку або зачекайте 5 секунд, сторінка перезавнтажиться автоматично.</span>`;
     textResult.style.color = 'red';
     textResult.style.fontWeight = 'bold';
     chkBtn.disabled = true;
