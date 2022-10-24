@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scrip.js" defer></script>
+    <title>Multiplication</title>
+    <style>
+        label>input[type="number"]:focus{
+            outline: none;
+        }
+        p, span{
+            color: rgb(75, 75, 75); 
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form style="margin-left: 5%;">
+        <p class="result"></p> <!-- Підсумок результатів -->        
+        <input type="button" value="Старт!" style="width: 200px; height: 40px; background: rgb(136, 223, 136);">
+        <input type="button" value="Завершити!" style="width: 200px; height: 40px; background: red; color: white; display: none;"> <br><br>
+        <label>
+            <span></span> <!-- Умова -->  
+            <input type="number">
+            <input type="button" value="Перевірити" required>
+        </label>
+        <p class="check"></p> <!-- Перевірка розв’язку --> 
+    </form>
+</body>
+</html>
